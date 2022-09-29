@@ -31,7 +31,7 @@
 main {
   background-image: url('/img/backgroundsmall.jpg');
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -39,7 +39,7 @@ main {
 @media (min-width: 768px) {
 
   main {
-      background-image: url('/img/background.jpg');
+    background-image: url('/img/background.jpg');
     background-attachment: fixed;
   }
 
