@@ -36,7 +36,7 @@ main {
   background-repeat: no-repeat;
 }
 
-@media(min-width: 768px) {
+@media(max-width: 768px) {
   main {
      background-attachment: fixed;
   }
