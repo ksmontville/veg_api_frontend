@@ -31,7 +31,7 @@
 main {
   background-image: url('/img/backgroundsmall.jpg');
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: fixed !important;
   background-position: center;
   background-repeat: no-repeat;
 }
