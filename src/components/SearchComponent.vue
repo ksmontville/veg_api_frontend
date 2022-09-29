@@ -23,7 +23,7 @@
 import axios from "axios";
 import {ref} from "vue";
 
-const apiURL = 'https://veg-api-backend.herokuapp.com/'
+const apiURL = 'https://veg-api-backend.herokuapp.com'
 
 export default {
   name: "SearchComponent",
