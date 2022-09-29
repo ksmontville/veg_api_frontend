@@ -32,8 +32,15 @@ main {
   background-image: url('/img/background.jpg');
   background-size: cover;
   background-attachment: fixed;
-  background-position: top;
+  background-position: center;
   background-repeat: no-repeat;
+}
+
+@media(min-width: 768px) {
+  main {
+     background-attachment: fixed;
+  }
+
 }
 
 </style>
