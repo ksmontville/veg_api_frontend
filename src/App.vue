@@ -36,7 +36,7 @@ main {
   background-repeat: no-repeat;
 }
 
-@media(min-width: 768px) {
+@media only screen and (max-device-width: 768px) {
   main {
      background-attachment: scroll;
   }
