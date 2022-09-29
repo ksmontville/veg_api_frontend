@@ -2,7 +2,7 @@
 
   <div class="rounded-md flex flex-col flex-nowrap justify-center items-center p-8 max-w-lg" id="search-form">
 
-    <input class="rounded-md min-w-full text-lg p-4 mb-6" type="search" placeholder="Search for a veggie..." v-model="veggieSearch.toLowerCase()">
+    <input class="rounded-md min-w-full text-lg p-4 mb-6" type="search" placeholder="Search for a veggie..." v-model="veggieSearch">
     <select class="rounded-md min-w-full text-lg p-4 mb-12" v-model="veggieList" @change="getVeggie(veggieList)">
       <option value="" disabled selected>Or pick from the list...</option>
       <option class="" v-for="veggieName in veggieNames" :key="veggieName" :value="veggieName.name">{{ veggieName.name }}</option>
@@ -53,7 +53,7 @@ export default {
      }
 
      async function getVeggie(name) {
-      const response = await axios.get(`${apiURL}/veggies/${name}`)
+      const response = await axios.get(`${apiURL}/veggies/${name.toLowerCase()}`)
       searchResults.value.name = response.data.name
       searchResults.value.description = response.data.description
       searchResults.value.procedure = response.data.procedure
