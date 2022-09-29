@@ -23,7 +23,7 @@
 import axios from "axios";
 import {ref} from "vue";
 
-const apiURL = 'http://localhost:5000'
+const apiURL = 'https://chop-that-veg.netlify.app'
 
 export default {
   name: "SearchComponent",
