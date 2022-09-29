@@ -31,7 +31,7 @@
 main {
   background-image: url('/img/backgroundsmall.jpg');
   background-size: cover;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
 }
