@@ -31,14 +31,14 @@
 main {
   background-image: url('/img/background.jpg');
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-@media only screen and (max-device-width: 768px) {
+@media only screen and (min-device-width: 768px) {
   main {
-     background-attachment: scroll;
+     background-attachment: fixed;
   }
 
 }
