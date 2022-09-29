@@ -8,7 +8,7 @@
       <option class="" v-for="veggieName in veggieNames" :key="veggieName" :value="veggieName.name">{{ veggieName.name }}</option>
     </select>
     <div class="flex flex-row justify-center gap-6">
-      <button class="rounded-lg bg-green-900 text-white text-xl p-3" type="submit" @click="getVeggie(veggieSearch)">Search</button>
+      <button class="rounded-lg bg-green-900 text-white text-xl p-3" type="submit" @click="getVeggie(veggieSearch.toLowerCase())">Search</button>
       <button class="rounded-lg bg-green-900 text-white text-xl p-3" type="submit" @click="clearForm">Clear</button>
     </div>
   </div>
