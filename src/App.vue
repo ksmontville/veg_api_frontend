@@ -32,7 +32,7 @@ main {
   background-image: url('/img/background.jpg');
   background-size: cover;
   background-attachment: fixed;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
 }
 
