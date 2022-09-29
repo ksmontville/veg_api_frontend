@@ -29,7 +29,7 @@
 <style scoped>
 
 main {
-  background-image: url('/img/backgroundsmall.jpg');
+  background-image: url('/img/background.jpg');
   background-size: cover;
   background-attachment: fixed !important;
   background-position: center;
