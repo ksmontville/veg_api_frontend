@@ -31,8 +31,8 @@
 main {
   background-image: url('/img/backgroundsmall.jpg');
   background-size: cover;
-  background-attachment: scroll;
-  background-position: center;
+  background-attachment: fixed;
+  background-position: top;
   background-repeat: no-repeat;
 }
 
@@ -40,7 +40,6 @@ main {
 
   main {
     background-image: url('/img/background.jpg');
-    background-attachment: fixed;
   }
 
 }
