@@ -64,10 +64,10 @@ export default {
     ])
 
     const newVeggie = ref({
-      'name': "",
-      'description': "",
-      'procedure': "",
-      'resource': ""
+      "name": "",
+      "description": "",
+      "procedure": "",
+      "resource": ""
     })
 
     function toggleShowAddForm() {
@@ -84,13 +84,13 @@ export default {
 
     async function addVeggie() {
       await axios.post(`${props.apiURL}/veggies/`, {
-        'name': newVeggie.value.name,
-        'description': newVeggie.value.description,
-        'procedure': newVeggie.value.procedure,
-        'resource': newVeggie.value.resource
+        "name": newVeggie.value.name,
+        "description": newVeggie.value.description,
+        "procedure": newVeggie.value.procedure,
+        "resource": newVeggie.value.resource
       }, {
         headers: {
-          'content-type': 'application/json'
+          "content-type": "application/json"
         }
       })
           clearAddForm()
