@@ -90,7 +90,7 @@ export default {
         "resource": newVeggie.value.resource
       }, {
         headers: {
-          "content-type": "json"
+          "content-type": "application/json"
         }
       })
           clearAddForm()
