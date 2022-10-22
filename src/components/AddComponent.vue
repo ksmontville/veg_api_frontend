@@ -83,7 +83,7 @@ export default {
     }
 
     async function addVeggie() {
-      await axios.post(`${props.apiURL}/veggies`, {
+      await axios.post(`${props.apiURL}/veggies/`, {
         'name': newVeggie.value.name,
         'description': newVeggie.value.description,
         'procedure': newVeggie.value.procedure,

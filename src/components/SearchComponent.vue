@@ -44,7 +44,7 @@ export default {
     getVeggieNames()
 
     async function getVeggieNames() {
-      const response = await axios.get(`${apiURL}/veggies`)
+      const response = await axios.get(`${apiURL}/veggies/`)
       const data = response.data
 
       for(const veg of data) {
