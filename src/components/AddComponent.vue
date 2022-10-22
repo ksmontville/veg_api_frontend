@@ -88,6 +88,10 @@ export default {
         'description': newVeggie.value.description,
         'procedure': newVeggie.value.procedure,
         'resource': newVeggie.value.resource
+      }, {
+        headers: {
+          'content-type': 'application/json'
+        }
       })
           clearAddForm()
     }
