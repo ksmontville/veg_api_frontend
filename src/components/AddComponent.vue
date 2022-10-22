@@ -86,11 +86,11 @@ export default {
       await axios.post(`${props.apiURL}/veggies/`, {
         "name": newVeggie.value.name,
         "description": newVeggie.value.description,
-        "procedure": newVeggie.value.procedure,
+        "procedure": `"${newVeggie.value.procedure}"`,
         "resource": newVeggie.value.resource
       }, {
         headers: {
-          "content-type": "application/json"
+          "content-type": "json"
         }
       })
           clearAddForm()
