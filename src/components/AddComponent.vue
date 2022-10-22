@@ -59,7 +59,7 @@ export default {
       {'id': 1, 'text': "Check that the veggie does not exist before adding it to the list"},
       {'id': 2, 'text': "Use a lowercase name field"},
       {'id': 3, 'text': "Use proper English grammar and sentence structure for description field"},
-      {'id': 4, 'text': "Separate steps in step-by-step field with newline character '\\n', ex. \"Step one\\nStep two\\nStep three...\""},
+      {'id': 4, 'text': "Separate steps in step-by-step field with a new line"},
       {'id': 5, 'text': "Submit a link that is not overly busy with images, videos, ads, etc."}
     ])
 
